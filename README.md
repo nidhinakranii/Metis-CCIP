@@ -162,8 +162,8 @@ npx hardhat compile
 ```
 - Deploy Your Contracts
 ```shell
-npx hardhat run scripts/deploy_receiver.js --network metis
-npx hardhat run scripts/deploy_sender.js --network metis
+npx hardhat run scripts/deploy_receiver.js --network metisSepolia
+npx hardhat run scripts/deploy_sender.js --network metisSepolia
 ```
 #### Don't forget to uddate Contract addresses in Tasks/sendMessages.js 
 ```shell
